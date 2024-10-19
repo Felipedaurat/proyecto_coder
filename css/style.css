@@ -128,14 +128,15 @@ a {
 
 
 /**---FOOTER---*/
-footer {
-    background-color: blue; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    height: 100px; 
-}
 
+footer {
+    background-color: blue;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    height: 100px;
+    padding-right: 5px; 
+}
 .ig{
     width: 10%; 
     height: auto; 
@@ -186,7 +187,14 @@ footer {
     }
 }
 
-
+footer {
+    background-color: blue;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    height: 100px;
+    padding-right: 5px; 
+}
 
 
 
