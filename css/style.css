@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/**---HEADER---*/
+.bg-menu{
+    background-color: blue;
+}
+
+.btn-outline-success{
+    background-color: blue !important;
+    border: 1px solid white;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/**---MAIN---*/
+
+.hero{
+    height: 90vh;
+    text-align: center;
+    background-image: url("../img/office-work.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.hero h2{
+    color: brown;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 60px;
+}
+
+.crypto h2{
+    color: aquamarine;
+}
+
+.crypto{
+    text-align: right;
+}
+
+
+.acciones h2{
+    color: aquamarine;
+}
+
+
+.crypto h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.acciones h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nosotros h2{
+    color: aquamarine;
+}
+
+.nosotros h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.crypto div{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.acciones div{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.cryptoc {height: 90vh;
+    text-align: center;
+    background-image: url("../img/bitcoinnnn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.product-bitcoin {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    position: relative; 
+}
+
+.bitcoin-img {
+    width: 200px; 
+    height: auto;
+}
+
+.buy-button {
+    background-color: #4CAF50;
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    margin-top: 10px; 
+}
+
+
+
+/**---FOOTER---*/
+footer {
+    background-color: blue; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px; 
+}
+
+.ig{
+    width: 10%; 
+    height: auto; 
+}
+
+.facebook{
+    width: 10%;
+    height: auto;
+}
+
+.x{
+    width: 10%; 
+    height: auto; 
+}
+
+.tiktok{
+    width: 10%; 
+    height: auto; 
+}
+
+
+/*Media queries*/
+@media screen and (max-width: 650px) {
+    .hero img {
+        width: 200px;
+        height: auto;
+    }
+    .crypto img,
+    .acciones img {
+        width: 150px;
+        height: auto;
+    }
+    footer img {
+        width: 30px;
+        height: auto;
+    }
+
+
+    h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .hero p,
+    .nosotros p {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+
+
+
+
+
