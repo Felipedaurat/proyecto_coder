@@ -10,13 +10,14 @@ a {
 
 /**---HEADER---*/
 .bg-menu{
-    background-color: blue;
+    background-color: #6aa3b4;
 }
 
 .btn-outline-success{
-    background-color: blue !important;
+    background-color: #6aa3b4 !important;
     border: 1px solid white;
     font-weight: 600;
+    color: black;
 }
 
 
@@ -128,34 +129,30 @@ a {
 
 
 /**---FOOTER---*/
-
 footer {
-    background-color: blue;
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;
-    height: 100px;
-    padding-right: 5px; 
+    padding: 20px;
+    background-color: #6aa3b4;
 }
-.ig{
-    width: 10%; 
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+
+
+.social-icons {
+    display: flex; 
+    gap: 10px; 
+}
+
+.social-icons img {
+    width: 30px; 
     height: auto; 
 }
 
-.facebook{
-    width: 10%;
-    height: auto;
-}
-
-.x{
-    width: 10%; 
-    height: auto; 
-}
-
-.tiktok{
-    width: 10%; 
-    height: auto; 
-}
 
 
 /*Media queries*/
@@ -187,14 +184,38 @@ footer {
     }
 }
 
-footer {
-    background-color: blue;
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;
-    height: 100px;
-    padding-right: 5px; 
+
+@media (min-width: 992px) {
+    .navbar .nav-link {
+        font-size: 1.1rem;
+    }
+    .buy-button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
 }
 
+@media (max-width: 767px) {
+    .navbar-brand img {
+        width: 70px;
+    }
+    .cryptoc .bitcoin-img {
+        width: 100px;
+    }
+    .buy-button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+    .footer-container .social-icons img {
+        width: 20px;
+        margin: 3px;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    .navbar .nav-link {
+        font-size: 1rem;
+    }
+}
 
 
